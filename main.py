@@ -23,20 +23,12 @@ class ResultsPage(MethodView):
 
     def post(self):
         billform = BillForm(request.form)
-        amount = billform.amount.data
-        period = billform.period.data
-        name1 = billform.name1.data
-        days_in_house1 = billform.days_in_house1.data
-        name2 = billform.name2.data
-        days_in_house2 = billform.days_in_house2.data
 
-        the_bill = apartment.Bill(float(amount, period))
+        the_bill = apartment.Bill(float(billform.amount.data), billform.period.data)
+        roommate1 = apartment.Roommate(billform.name1.data, float(billform.days_in_house1.data))
+        roommate2 = apartment.Roommate(billform.name2.data, float(billform.days_in_house2.data))
 
-        roommate1 = apartment.Roommate(float(name1, days_in_house1))
-        roommate2 = apartment.Roommate(float(name2, days_in_house2))
-
-        return render_template('results.html', name1=roommate1.name, amount1=roommate1.pays(the_bill, roommate2),
-                               name2=roommate2.name, amount2=roommate2.pays(the_bill, roommate1))
+        return render_template('results.html', name1=roommate1.name, amount1=roommate1.pays(the_bill, roommate2), name2=roommate2.name, amount2=roommate2.pays(the_bill,roommate1))
 
 
 class BillForm(Form):
