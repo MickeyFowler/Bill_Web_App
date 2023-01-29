@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f47eab0-9f7b-4e30-811a-fc3ea923bbd7" name="Changes" comment="css">
+    <list default="true" id="7f47eab0-9f7b-4e30-811a-fc3ea923bbd7" name="Changes" comment="bug fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlatMates/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/RoomMates/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlatMates/.idea/FlatMates.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RoomMates/.idea/FlatMates.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlatMates/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RoomMates/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlatMates/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RoomMates/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlatMates/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RoomMates/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlatMates/Files/.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlatMates/Files/2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlatMates/Files/2021.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlatMates/Files/3.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bill_form_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bill_form_page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,13 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675002344977</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bug fixes">
+      <created>1675003840146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675003840146</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple changes" />
     <MESSAGE value="html changes" />
     <MESSAGE value="css" />
-    <option name="LAST_COMMIT_MESSAGE" value="css" />
+    <MESSAGE value="bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixes" />
   </component>
 </project>
