@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href = "static/main.css">
 </head>
 <body>
 <h2>The Bill Form</h2>
@@ -10,13 +11,16 @@
 <form action="/results" method="post">
     {{billform.amount.label}} {{billform.amount}}
     <br>
-    {{billform.amount.label}} {{billform.period}}
     {{billform.period.label}} {{billform.period}}
     <hr>
     <p>First Roommate</p>
     {{billform.name1.label}} {{billform.name1}}
-    {{billform.amount.label}} {{billform.days_in_house1}}
+    <br>
+    {{billform.days_in_house1.label}} {{billform.days_in_house1}}
+    <hr>
+    <p>Second Roommate</p>
     {{billform.name2.label}} {{billform.name2}}
+    <br>
     {{billform.days_in_house2.label}} {{billform.days_in_house2}}
     <br>
     {{billform.button}}
