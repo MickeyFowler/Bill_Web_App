@@ -6,9 +6,7 @@ from RoommatesBill.files import apartment
 app = Flask(__name__)
 
 
-""" test
-"""
-fgdfggfd
+
 class HomePage(MethodView):
 
     def get(self):
